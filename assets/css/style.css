@@ -13,8 +13,8 @@ body {
   color: #222;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
-  font-weight: 300;
-  line-height: 20px;
+  font-weight: 350;
+  line-height: 19px;
   letter-spacing: 0.03em;
   overflow-x: hidden;
   margin: 0 auto;
@@ -41,21 +41,21 @@ h4 {
 
 a {
   color: #05249c;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none !important;
   transition: all 0.5s ease-in-out 0s;
 }
 
 a:hover {
   transition: all 0.5s ease-in-out 0s;
-  font-weight: 400;
+  font-weight:500;
   color: #222;
   text-decoration: overline;
 }
 
 a:hover, a:focus {
   color: #222;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: overline;
 }
 
@@ -174,7 +174,7 @@ nav {
   background: #fff;
   z-index: 1000;
   width: 100%;
-  padding: 20px;
+  padding: 0px;
   display: none;
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
@@ -183,15 +183,15 @@ nav {
   float: right;
   line-height: 15px;
   margin-bottom: 15px;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 nav ul li {
   float: left;
-  margin-right: 15px;
+  margin-right: 5px;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 5px;
 }
 
 nav ul li a {
@@ -203,9 +203,8 @@ nav ul li a {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   line-height: 15px;
-  text-transform: uppercase;
   letter-spacing: 0.03em;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -253,13 +252,13 @@ nav ul li a {
 }
 
 .hero-content p {
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 1px;
   margin-top: 0;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
   text-transform: none;
   color: #fff;
-  font-weight: 350;
+  font-weight: 380;
 }
 
 .hero-content .list-social li {
@@ -962,6 +961,7 @@ blockquote {
     display: none;
     float: none;
     width: 100%;
+    text-transform: uppercase;
   }
   .nav-menu li {
     float: none;
@@ -970,12 +970,12 @@ blockquote {
     border-top:0px solid #FFF;
     line-height: 30px;
     margin-left: 0;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
   }
   .responsive {
     float: right;
-    padding-top: 20px;
+    padding-top: 10px;
     display: block;
   }
   /* About */
@@ -1040,8 +1040,8 @@ blockquote {
     border-top: 0;
     line-height: 20px;
     margin-left: 0;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     font-size: 14px;
   }
   .responsive {
@@ -1096,7 +1096,7 @@ blockquote {
 @media (max-width: 600px) {
   /* Navbar */
   nav {
-    padding: 20px;
+    padding: 15px;
   }
   .nav-menu {
     margin-top: 20px;
@@ -1111,12 +1111,12 @@ blockquote {
     border-top: 0;
     line-height: 20px;
     margin-left: 0;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
   }
   .responsive {
     float: right;
-    padding-top: 0px;
+    padding-top: 15px;
     display: block;
   }
   /* About */
@@ -1181,7 +1181,7 @@ blockquote {
     border-top: 0;
     line-height: 5px;
     margin-left: 0;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 10px;
   }
   .responsive {
@@ -1235,10 +1235,10 @@ blockquote {
 @media (max-width: 320px) {
   /* Navbar */
   nav {
-    padding: 20px;
+    padding: 15px;
   }
   .nav-menu {
-    margin-top: 20px;
+    margin-top: 15px;
     display: none;
     float: none;
     width: 100%;
@@ -1251,7 +1251,7 @@ blockquote {
     line-height: 45px;
     margin-left: 0;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
   }
   .responsive {
     float: right;

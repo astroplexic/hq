@@ -47,7 +47,7 @@ width: 100%;
 height: auto;
 position: relative;
 background-color: #171717;
-background-image: url("asset/img/prelude-bg.jpg");
+background-image: url("../img/prelude-bg.jpgg");
 filter: blur(8px);
   -webkit-filter: blur(8px);
     background-position: center;
@@ -75,8 +75,6 @@ color: #fff;
   width: 100%;
   padding: 5px;
   text-align: center;
-}
-
 }
 
 h4 {

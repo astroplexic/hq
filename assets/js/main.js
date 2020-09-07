@@ -49,8 +49,8 @@
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (!$('.subpage-nav').length) {
-      if (scroll > 100) {
-        $("#main-nav").slideDown(700);
+      if (scroll > 300) {
+        $("#main-nav").slideDown(500);
       } else {
         $("#main-nav").slideUp(700);
       }

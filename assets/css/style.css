@@ -39,42 +39,17 @@ h2 {
 }
 
 .prelude {
-padding-top: 200px;
-padding-left: 18px;
-padding-right: 18px;
-margin-bottom: 400px;
-width: 100%;
-height: auto;
-position: relative;
-background-color: #171717;
-background-image: url("../img/prelude-bg.jpg");
-filter: blur(8px);
-  -webkit-filter: blur(8px);
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-}
-
-  /* Position text in the middle of the page/image */
-.prelude-text {
-height: 100%;
-box-sizing: border-box;
-box-shadow: #292929;
-  font-weight: 350;
-font-size: 35px;
-font-family: "Poppins", sans-serif;
-color: #fff;
-  border: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
+  color: #0834e2;
+  font-weight: 300;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 30px;
+  margin-bottom: 10px;
   width: 100%;
-  padding: 5px;
-  text-align: center;
+  height: auto;
+  position: relative;
 }
 
 h4 {

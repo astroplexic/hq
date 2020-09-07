@@ -332,7 +332,7 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
+  background: #fff;
   padding-top: 120px;
 }
 
@@ -343,7 +343,7 @@ nav ul li a {
 #about .div-img-bg .about-img img {
   width: 100%;
   box-shadow: 15px 20px 21px -5px rgba(0, 0, 0, 0.10);
-  margin-top: auto;
+  margin-top: 50px;
   margin-left: 10px;
   height: 600px;
   -o-object-fit: cover;

@@ -337,15 +337,15 @@ nav ul li a {
 }
 
 #about .div-img-bg { 
-  border: 1px solid #fff;
+  border: 25px solid #fff;
 }
 
 #about .div-img-bg .about-img img {
   width: 100%;
   box-shadow: 15px 20px 21px -5px rgba(0, 0, 0, 0.10);
-  margin-top: auto;
+  margin-top: -60px;
   margin-left: 10px;
-  height: 500px;
+  height: 400px;
   -o-object-fit: cover;
   object-fit: cover;
 }

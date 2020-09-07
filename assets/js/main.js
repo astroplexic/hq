@@ -49,7 +49,7 @@
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (!$('.subpage-nav').length) {
-      if (scroll > 200) {
+      if (scroll > 500) {
         $("#main-nav").slideDown(700);
       } else {
         $("#main-nav").slideUp(700);

@@ -242,7 +242,7 @@ nav ul li a {
 .hero-content h1 {
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   text-transform: uppercase;
   color: #fff;
 }
@@ -336,15 +336,16 @@ nav ul li a {
   padding-top: 120px;
 }
 
-#about .div-img-bg { 
-  border: 25px solid #fff;
+#about .div-img-bg {
+  padding-bottom: 30px;
+  border: 20px solid #ffffff;
 }
 
 #about .div-img-bg .about-img img {
   width: 100%;
   box-shadow: 15px 20px 21px -5px rgba(0, 0, 0, 0.10);
   margin-top: -60px;
-  margin-left: 10px;
+  margin-left: 40px;
   height: 400px;
   -o-object-fit: cover;
   object-fit: cover;

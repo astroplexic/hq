@@ -50,9 +50,9 @@
     var scroll = $(window).scrollTop();
     if (!$('.subpage-nav').length) {
       if (scroll > 400) {
-        $("#main-nav").slideDown(1000);
+        $("#main-nav").slideDown(100);
       } else {
-        $("#main-nav").slideUp(700);
+        $("#main-nav").slideUp(100);
       }
     }
   });

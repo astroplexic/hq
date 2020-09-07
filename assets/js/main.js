@@ -78,7 +78,7 @@
 
     typed.typed({
       strings: strings,
-      typeSpeed: 200,
+      typeSpeed: 50,
       loop: true,
     });
   });

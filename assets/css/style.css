@@ -47,6 +47,10 @@ width: 100%;
 height: auto;
 position: relative;
 background-color: #171717;
+
+}
+.prelude-bg{
+  background-color: #171717;
 background-image: url("../img/prelude-bg.jpg");
 filter: blur(8px);
   -webkit-filter: blur(8px);
@@ -56,7 +60,6 @@ filter: blur(8px);
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
 }
-
   /* Position text in the middle of the page/image */
 .prelude-text {
 height: 100%;

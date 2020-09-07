@@ -225,7 +225,7 @@ nav ul li a {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+  background: url("../img/electro_header.png") repeat fixed center center/cover;
   height: 100vh;
   width: 100%;
 }
@@ -248,13 +248,13 @@ nav ul li a {
 }
 
 .hero-content p {
-  font-size: 13px;
-  letter-spacing: 3px;
+  font-size: 14px;
+  letter-spacing: 1px;
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
   color: #fff;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .hero-content .list-social li {
@@ -338,12 +338,12 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #fff;
 }
 
 #about .div-img-bg .about-img img {
   width: 100%;
-  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 15px 20px 21px -5px rgba(0, 0, 0, 0.10);
   margin-top: -60px;
   margin-left: 40px;
   height: 400px;
@@ -352,7 +352,7 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Geneva', serif;
   font-size: 28px;
   text-align: left;
 }

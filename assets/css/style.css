@@ -248,11 +248,11 @@ nav ul li a {
 }
 
 .hero-content p {
-  font-size: 13px;
-  letter-spacing: 3px;
+  font-size: 14px;
+  letter-spacing: 0px;
   margin-top: 0;
-  margin-bottom: 30px;
-  text-transform: capitalize;
+  margin-bottom: 10px;
+  text-transform: none;
   color: #fff;
   font-weight: 500;
 }
@@ -264,7 +264,7 @@ nav ul li a {
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------

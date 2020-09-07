@@ -242,19 +242,19 @@ nav ul li a {
 .hero-content h1 {
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-transform: uppercase;
   color: #fff;
 }
 
 .hero-content p {
   font-size: 14px;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
   margin-top: 0;
   margin-bottom: 10px;
   text-transform: none;
   color: #fff;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .hero-content .list-social li {

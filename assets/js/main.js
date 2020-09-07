@@ -49,10 +49,10 @@
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (!$('.subpage-nav').length) {
-      if (scroll > 400) {
-        $("#main-nav").slideDown(100);
+      if (scroll > 1000) {
+        $("#main-nav").slideDown(10);
       } else {
-        $("#main-nav").slideUp(100);
+        $("#main-nav").slideUp(10);
       }
     }
   });

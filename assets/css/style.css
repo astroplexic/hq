@@ -178,9 +178,9 @@ nav {
 
 .nav-menu {
   float: right;
-  line-height: 5px;
-  margin-bottom: 0;
-  padding-top: 0;
+  line-height: 15px;
+  margin-bottom: 15px;
+  padding-top: 30px;
 }
 
 nav ul li {
@@ -199,9 +199,9 @@ nav ul li a {
   color: #222;
   font-family: 'Geneva', Poppins;
   font-weight: 500;
-  line-height: 5px;
+  line-height: 15px;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   text-transform: capitalize;
 }
 
@@ -952,10 +952,10 @@ blockquote {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
   nav {
-    padding: 0px;
+    padding: 20px;
   }
   .nav-menu {
-    margin-top: 10px;
+    margin-top: 20px;
     display: none;
     float: none;
     width: 100%;
@@ -967,12 +967,12 @@ blockquote {
     border-top:0px solid #FFF;
     line-height: 30px;
     margin-left: 0;
-    padding-top: 0;
+    padding-top: 25px;
     padding-bottom: 10px;
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 20px;
     display: block;
   }
   /* About */
@@ -1022,10 +1022,10 @@ blockquote {
 @media (max-width: 767px) {
   /* Navbar */
   nav {
-    padding: 0;
+    padding: 20px;
   }
   .nav-menu {
-    margin-top: 0px;
+    margin-top: 15px;
     display: none;
     float: none;
     width: 100%;
@@ -1037,7 +1037,7 @@ blockquote {
     border-top: 0;
     line-height: 20px;
     margin-left: 0;
-    padding-top: 18px;
+    padding-top: 20px;
     padding-bottom: 15px;
     font-size: 14px;
   }
@@ -1096,7 +1096,7 @@ blockquote {
     padding: 20px;
   }
   .nav-menu {
-    margin-top: 10px;
+    margin-top: 20px;
     display: none;
     float: none;
     width: 100%;

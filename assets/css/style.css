@@ -251,8 +251,8 @@ nav ul li a {
   font-size: 14px;
   letter-spacing: 1px;
   margin-top: 0;
-  margin-bottom: 5px;
-  text-transform: capitalize;
+  margin-bottom: 2px;
+  text-transform: none;
   color: #fff;
   font-weight: 350;
 }
@@ -264,7 +264,7 @@ nav ul li a {
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------

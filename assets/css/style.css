@@ -15,7 +15,7 @@ body {
   font-size: 15px;
   font-weight: 350;
   line-height: 19px;
-  letter-spacing: 1px;
+  letter-spacing: 0.9px;
   overflow-x: hidden;
   margin: 0 auto;
   padding: 0;
@@ -48,18 +48,17 @@ a {
   color: #0834e2;
   font-weight: 500;
   text-decoration: none !important;
-  transition: all 0.5s ease-in-out 0s;
 }
 
 a:hover {
   font-weight: 500;
-  color: #0834e2;
+  color: #000000;
   text-decoration: overline;
 }
 
 a:hover,
 a:focus {
-  color: #0834e2;
+  color: #000000;
   font-weight: 500;
   text-decoration: overline;
 }
@@ -518,7 +517,7 @@ nav ul li a {
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
 #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #cab89f;
+  color: #0834e2;
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {

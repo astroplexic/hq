@@ -343,7 +343,7 @@ nav ul li a {
 
 #about .div-img-bg .about-img img {
   width: 100%;
-  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 15px 20px 21px -5px rgba(0, 0, 0, 0.10);
   margin-top: -60px;
   margin-left: 40px;
   height: 400px;

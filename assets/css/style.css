@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   background: #ffffff;
-  color: #898989;
+  color: #222;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -40,18 +40,20 @@ h4 {
 }
 
 a {
-  color: #292929;
+  color: #05249c;
   text-decoration: none !important;
   transition: all 0.5s ease-in-out 0s;
 }
 
 a:hover {
   transition: all 0.5s ease-in-out 0s;
+  color: #222;
+  text-decoration: overline;
 }
 
 a:hover, a:focus {
-  color: #b8a07e;
-  text-decoration: underline;
+  color: #222;
+  text-decoration: overline;
 }
 
 nav ul li a {
@@ -59,7 +61,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 12px;
-  color: #999999;
+  color: #222;
   letter-spacing: 0.1em;
   font-weight: 500;
   line-height: 14px;
@@ -70,18 +72,18 @@ nav ul li a {
 p {
   margin: 25px 0;
   padding: 0;
-  font-size: 15px;
-  color: #999999;
-  line-height: 28px;
+  font-size: 14px;
+  color: #222;
+  line-height: 5px;
 }
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #05249c;
   color: #fff;
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #05249c;
   color: #fff;
 }
 
@@ -150,7 +152,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #222;
 }
 
 .mb-30 {
@@ -169,16 +171,16 @@ nav {
   background: #fff;
   z-index: 1000;
   width: 100%;
-  padding: 20px;
+  padding: 0;
   display: none;
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 
 .nav-menu {
   float: right;
-  line-height: 32px;
+  line-height: 5px;
   margin-bottom: 0;
-  padding-top: 16px;
+  padding-top: 0;
 }
 
 nav ul li {
@@ -194,10 +196,10 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: #999999;
-  font-family: 'Poppins', helvetica;
+  color: #222;
+  font-family: 'Geneva', Poppins;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 5px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -333,7 +335,7 @@ nav ul li a {
   width: 100%;
   height: auto;
   background: #ffffff;
-  padding-top: 120px;
+  padding-top: 200px;
 }
 
 #about .div-img-bg {
@@ -368,7 +370,7 @@ nav ul li a {
 # Services
 --------------------------------------------------------------*/
 #services {
-  background: #f7f7f7;
+  background: #FFF;
   position: relative;
   padding-bottom: 80px;
 }
@@ -611,7 +613,7 @@ nav ul li a {
 #journal, #journal-blog {
   height: auto;
   width: 100%;
-  background: #f7f7f7;
+  background: #FFF;
   padding-bottom: 60px;
   position: relative;
 }
@@ -769,7 +771,7 @@ nav ul li a {
 
 /* main content */
 .main-content {
-  background: #f7f7f7;
+  background: #FFF;
 }
 
 .main-content .container-main {
@@ -890,7 +892,7 @@ blockquote {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f7f7;
+  background: #FFF;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -950,10 +952,10 @@ blockquote {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
   nav {
-    padding: 10px 15px;
+    padding: 0px;
   }
   .nav-menu {
-    margin-top: 40px;
+    margin-top: 10px;
     display: none;
     float: none;
     width: 100%;
@@ -962,10 +964,10 @@ blockquote {
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
-    line-height: 45px;
+    border-top:0px solid #FFF;
+    line-height: 30px;
     margin-left: 0;
-    padding-top: 10px;
+    padding-top: 0;
     padding-bottom: 10px;
   }
   .responsive {
@@ -1020,10 +1022,10 @@ blockquote {
 @media (max-width: 767px) {
   /* Navbar */
   nav {
-    padding: 20px 15px;
+    padding: 0;
   }
   .nav-menu {
-    margin-top: 40px;
+    margin-top: 0px;
     display: none;
     float: none;
     width: 100%;
@@ -1032,11 +1034,11 @@ blockquote {
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
-    line-height: 45px;
+    border-top: 0;
+    line-height: 5px;
     margin-left: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .responsive {
     float: right;
@@ -1090,10 +1092,10 @@ blockquote {
 @media (max-width: 600px) {
   /* Navbar */
   nav {
-    padding: 20px 15px;
+    padding: 0;
   }
   .nav-menu {
-    margin-top: 40px;
+    margin-top: 10px;
     display: none;
     float: none;
     width: 100%;
@@ -1102,15 +1104,15 @@ blockquote {
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
-    line-height: 45px;
+    border-top: 0;
+    line-height: 5px;
     margin-left: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 0px;
     display: block;
   }
   /* About */
@@ -1160,10 +1162,10 @@ blockquote {
 @media (max-width: 480px) {
   /* Navbar */
   nav {
-    padding: 20px 15px;
+    padding: 0;
   }
   .nav-menu {
-    margin-top: 40px;
+    margin-top: 10px;
     display: none;
     float: none;
     width: 100%;
@@ -1172,15 +1174,15 @@ blockquote {
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
-    line-height: 45px;
+    border-top: 0;
+    line-height: 5px;
     margin-left: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 0px;
     display: block;
   }
   /* About */
@@ -1229,10 +1231,10 @@ blockquote {
 @media (max-width: 320px) {
   /* Navbar */
   nav {
-    padding: 20px 15px;
+    padding: 0;
   }
   .nav-menu {
-    margin-top: 40px;
+    margin-top: 10px;
     display: none;
     float: none;
     width: 100%;
@@ -1241,15 +1243,15 @@ blockquote {
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
+    border-top: 0;
     line-height: 45px;
     margin-left: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top:5px;
+    padding-bottom: 5px;
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 5px;
     display: block;
   }
   /* About */

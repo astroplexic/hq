@@ -10,12 +10,12 @@
 --------------------------------------------------------------*/
 body {
   background: #ffffff;
-  color: #222;
+  color: #000;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
   font-weight: 350;
   line-height: 19px;
-  letter-spacing: 0.03em;
+  letter-spacing: 1px;
   overflow-x: hidden;
   margin: 0 auto;
   padding: 0;
@@ -47,14 +47,13 @@ a {
 }
 
 a:hover {
-  transition: all 0.5s ease-in-out 0s;
   font-weight:500;
-  color: #222;
+  color: #05249c;
   text-decoration: overline;
 }
 
 a:hover, a:focus {
-  color: #222;
+  color: #05249c;
   font-weight: 500;
   text-decoration: overline;
 }
@@ -64,19 +63,18 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: #222;
-  letter-spacing: 0.3em;
-  font-weight: 500;
+  color: #000;
+  letter-spacing: 1px;
+  font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
-  transition: all 0.5s ease-in-out 0s;
 }
 
 p {
   margin: 25px 0;
   padding: 0;
   font-size: 14px;
-  color: #222;
+  color: #000;
   line-height: 25px;
 }
 
@@ -155,7 +153,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #222;
+  background: #000;
 }
 
 .mb-30 {
@@ -174,21 +172,20 @@ nav {
   background: #fff;
   z-index: 1000;
   width: 100%;
-  padding: 0px;
-  display: none;
+  padding: 0px 15px;
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 
 .nav-menu {
   float: right;
   line-height: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   padding-top: 15px;
 }
 
 nav ul li {
   float: left;
-  margin-right: 5px;
+  margin-right:15px;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   margin-left: 5px;
@@ -199,12 +196,12 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: #222;
+  color: #000;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   line-height: 15px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-transform: capitalize;
 }
 
 .logo {
@@ -268,7 +265,7 @@ nav ul li a {
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -954,14 +951,14 @@ blockquote {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
   nav {
-    padding: 20px;
+    padding: 0px 10px;
   }
   .nav-menu {
     margin-top: 20px;
     display: none;
     float: none;
     width: 100%;
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
   .nav-menu li {
     float: none;
@@ -971,11 +968,11 @@ blockquote {
     line-height: 30px;
     margin-left: 0;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
   .responsive {
     float: right;
-    padding-top: 10px;
+    padding-top:15px;
     display: block;
   }
   /* About */
@@ -1025,7 +1022,7 @@ blockquote {
 @media (max-width: 767px) {
   /* Navbar */
   nav {
-    padding: 20px;
+    padding: 0px 15px;
   }
   .nav-menu {
     margin-top: 15px;
@@ -1038,10 +1035,10 @@ blockquote {
     width: 100%;
     text-align: center;
     border-top: 0;
-    line-height: 20px;
+    line-height: 15px;
     margin-left: 0;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     font-size: 14px;
   }
   .responsive {
@@ -1096,7 +1093,7 @@ blockquote {
 @media (max-width: 600px) {
   /* Navbar */
   nav {
-    padding: 15px;
+    padding: 0px 15px;
   }
   .nav-menu {
     margin-top: 20px;
@@ -1109,10 +1106,10 @@ blockquote {
     width: 100%;
     text-align: center;
     border-top: 0;
-    line-height: 20px;
+    line-height: 10px;
     margin-left: 0;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 14px;
+    padding-bottom: 0px;
   }
   .responsive {
     float: right;
@@ -1166,7 +1163,7 @@ blockquote {
 @media (max-width: 480px) {
   /* Navbar */
   nav {
-    padding: 20px;
+    padding: 0px 10px;
   }
   .nav-menu {
     margin-top: 10px;
@@ -1179,14 +1176,14 @@ blockquote {
     width: 100%;
     text-align: center;
     border-top: 0;
-    line-height: 5px;
+    line-height:10px;
     margin-left: 0;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom:0px;
   }
   .responsive {
     float: right;
-    padding-top: 10px;
+    padding-top: 15px;
     display: block;
   }
   /* About */
@@ -1235,7 +1232,7 @@ blockquote {
 @media (max-width: 320px) {
   /* Navbar */
   nav {
-    padding: 15px;
+    padding: 0px 15px;
   }
   .nav-menu {
     margin-top: 15px;
@@ -1250,8 +1247,8 @@ blockquote {
     border-top: 0;
     line-height: 45px;
     margin-left: 0;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
   }
   .responsive {
     float: right;

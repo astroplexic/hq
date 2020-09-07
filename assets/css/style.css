@@ -41,18 +41,21 @@ h4 {
 
 a {
   color: #05249c;
+  font-weight: 400;
   text-decoration: none !important;
   transition: all 0.5s ease-in-out 0s;
 }
 
 a:hover {
   transition: all 0.5s ease-in-out 0s;
+  font-weight: 400;
   color: #222;
   text-decoration: overline;
 }
 
 a:hover, a:focus {
   color: #222;
+  font-weight: 400;
   text-decoration: overline;
 }
 
@@ -74,7 +77,7 @@ p {
   padding: 0;
   font-size: 14px;
   color: #222;
-  line-height: 28px;
+  line-height: 25px;
 }
 
 ::-moz-selection {
@@ -171,7 +174,7 @@ nav {
   background: #fff;
   z-index: 1000;
   width: 100%;
-  padding: 0;
+  padding: 20px;
   display: none;
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
@@ -197,7 +200,7 @@ nav ul li a {
   display: block;
   font-size: 14px;
   color: #222;
-  font-family: 'Geneva', Poppins;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   line-height: 15px;
   text-transform: uppercase;
@@ -355,7 +358,7 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Geneva', serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 28px;
   text-align: left;
 }

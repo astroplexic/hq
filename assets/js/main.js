@@ -92,7 +92,7 @@
 
     typed.typed({
       strings: strings,
-      typeSpeed: 90,
+      typeSpeed: 88,
       loop: true,
     });
   });

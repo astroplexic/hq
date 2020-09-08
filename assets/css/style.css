@@ -245,6 +245,9 @@ nav ul li a {
 /*--------------------------------------------------------------
 # Hero
 --------------------------------------------------------------*/
+
+@import "icons";
+
 #hero {
   background: url("../img/electro_header.png") repeat scroll center center/cover;
   background-color: #131313;

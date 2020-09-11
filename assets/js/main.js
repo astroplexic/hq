@@ -49,7 +49,7 @@
           {
             scrollTop: scrollto,
           },
-          800,
+          850,
           "easeInOutExpo"
         );
       }

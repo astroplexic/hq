@@ -199,14 +199,14 @@ nav {
 .nav-menu {
   float: right;
   line-height: 32px;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
   padding-top: 15px;
 }
 
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   margin-left: 5px;
 }
@@ -968,9 +968,6 @@ blockquote {
   color: #fff;
 }
 
-.credits {
-  font-size: 13px;
-}
 
 /** Width between 1200x to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1065,15 +1062,14 @@ blockquote {
     width: 100%;
   }
   .nav-menu li {
-    float: none;
+    float: left;
     width: 100%;
     text-align: left;
     border-top: none;
     line-height: 15px;
-line-height: 15px;
-margin-left: -14%;
-padding-top: 3px;
-padding-bottom: 12px;
+    margin-left: -14%;
+    padding-top: 3px;
+    padding-bottom: 12px;
   }
   .responsive {
     float: right;
@@ -1127,7 +1123,7 @@ padding-bottom: 12px;
 @media (max-width: 600px) {
   /* Navbar */
   nav {
-    padding: 20px 15px;
+    padding: 0px 25px 1px 0px;
   }
   .nav-menu {
     margin-top: 40px;
@@ -1136,12 +1132,14 @@ padding-bottom: 12px;
     width: 100%;
   }
   .nav-menu li {
-    float: none;
+    float: left;
     width: 100%;
-    text-align: center;
-    border-top: 1px solid white;
-    line-height: 45px;
+    text-align: left;
+    border-top: none;
+    text-transform: uppercase;
+    line-height: 44px;
     margin-left: 0;
+    padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -1197,7 +1195,7 @@ padding-bottom: 12px;
 @media (max-width: 480px) {
   /* Navbar */
   nav {
-    padding: 0px 8px 12px 0px;
+    padding: 0px 25px 1px 0px;
   }
   .nav-menu {
     margin-top: 40px;
@@ -1206,14 +1204,16 @@ padding-bottom: 12px;
     width: 100%;
   }
   .nav-menu li {
-    float: none;
+    float: left;
     width: 100%;
     text-align: center;
-    border-top: 1px solid white;
-    line-height: 45px;
+    text-transform: uppercase;
+    border-top: none;
+    line-height: 44px;
     margin-left: 0;
+    padding-left: 30px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   .responsive {
     float: right;
@@ -1266,7 +1266,7 @@ padding-bottom: 12px;
 @media (max-width: 320px) {
   /* Navbar */
   nav {
-    padding: 20px 15px;
+    padding: 0px 25px 1px 0px;
   }
   .nav-menu {
     margin-top: 40px;
@@ -1275,14 +1275,15 @@ padding-bottom: 12px;
     width: 100%;
   }
   .nav-menu li {
-    float: none;
+    float: left;
     width: 100%;
-    text-align: center;
-    border-top: 1px solid white;
-    line-height: 45px;
+    text-align: left;
+    border-top: none;
+    line-height: 44px;
     margin-left: 0;
+    padding-left: 30px;
     padding-top: 10px;
-    padding-bottom: 108px;
+    padding-bottom: 20px;
   }
   .responsive {
     float: right;

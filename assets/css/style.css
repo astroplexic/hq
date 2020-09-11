@@ -235,7 +235,7 @@ nav ul li a {
 
 .responsive {
   display: none;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .active {
@@ -1206,7 +1206,7 @@ blockquote {
   .nav-menu li {
     float: left;
     width: 100%;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     border-top: none;
     line-height: 44px;
@@ -1218,6 +1218,8 @@ blockquote {
   .responsive {
     float: right;
     padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
     display: block;
   }
   /* About */

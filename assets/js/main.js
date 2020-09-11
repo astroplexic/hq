@@ -5,38 +5,34 @@
  * License: https://bootstrapmade.com/license/
  */
 (function ($) {
-  "use strict";
+  ("use strict");
 
-  // Smooth scroll for the navigation menu and links with .scrollto classes
-  var scrolltoOffset = $("#main-nav").outerHeight() - 1;
-  $(document).on("click", ".nav-menu a, .mobile-nav a, .scrollto", function (
-    e
-  ) {
-    if (
-      location.pathname.replace(/^\//, "") ==
-      this.pathname.replace(/^\//, "") &&
-      location.hostname == this.hostname
-    ) {
-      var target = $(this.hash);
-      if (target.length) {
-        e.preventDefault();
+  // jQuery for page scrolling feature - requires jQuery Easing plugin
+  $("a.page-scroll").bind("click", function (event) {
+    var $anchor = $(this);
+    $("html, body")
+      .stop()
+      .animate(
+        {
+          scrollTop: $($anchor.attr("href")).offset().top - 50,
+        },
+        1250,
+        "easeInOutExpo"
+      );
+    event.preventDefault();
+  });
 
-        var scrollto = target.offset().top - scrolltoOffset;
+  // Highlight the top nav as scrolling occurs
+  $("body").scrollspy({
+    target: ".navbar-fixed-top",
+    offset: 51,
+  });
 
-        $("html, body").animate(
-          {
-            scrollTop: scrollto,
-          },
-          1500,
-          "easeInOutExpo"
-        );
-
-        if (window.matchMedia("(max-width:991px)").matches) {
-          $(".nav-menu").hide();
-        }
-        return false;
-      }
-    }
+  // Offset for Main Navigation
+  $("#mainNav").affix({
+    offset: {
+      top: 100,
+    },
   });
 
   // Activate smooth scroll on page load with hash links in the url

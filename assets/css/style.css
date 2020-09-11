@@ -366,7 +366,7 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #fff;
+  border: 20px solid transparent;
 }
 
 #about .div-img-bg .about-img img {
@@ -446,7 +446,7 @@ nav ul li a {
   border-radius: 50%;
   border: 0;
   padding: 0 !important;
-  background-color: #fff;
+  background-color: #999;
   cursor: pointer;
 }
 
@@ -480,7 +480,7 @@ nav ul li a {
   display: inline-block;
   padding: 10px 15px 8px 15px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1;
   text-transform: uppercase;
   color: #999999;
@@ -514,10 +514,10 @@ nav ul li a {
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 16px;
   color: #666;
-  font-weight: 600;
-  margin-bottom: 10px;
+  font-weight: 500;
+  margin-bottom: 8px;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
@@ -533,7 +533,7 @@ nav ul li a {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #0834e2;
+  color: #999;
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
@@ -542,7 +542,7 @@ nav ul li a {
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
-  right: 10px;
+  right: 8px;
 }
 
 #portfolio .portfolio-item:hover .portfolio-info {
@@ -853,7 +853,7 @@ nav ul li a {
   margin-left: 5px;
 }
 
-/* Commonts */
+/* Comments */
 .comments {
   background: #fff;
 }
@@ -949,7 +949,7 @@ blockquote {
 #footer .socials-media ul li a {
   font-size: 16px;
   color: #ffffff;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   font-weight: 500;
   background: transparent;
   text-transform: uppercase;
@@ -960,11 +960,12 @@ blockquote {
 }
 
 #footer p {
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.1em;
-  font-weight: 500;
+  font-weight: 300;
   margin-top: 0;
-  text-transform: uppercase;
+  text-transform: none;
+  color: #fff;
 }
 
 .credits {

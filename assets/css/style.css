@@ -991,9 +991,9 @@ blockquote {
     text-transform: capitalize;
   }
   .nav-menu li {
-    float: none;
+    float: right;
     width: 100%;
-    text-align: center;
+    text-align: right;
     border-top: 0px solid #fff;
     line-height: 30px;
     margin-left: 0;
@@ -1195,7 +1195,7 @@ blockquote {
 @media (max-width: 480px) {
   /* Navbar */
   nav {
-    padding: 0px 25px 1px 0px;
+    padding: 0px 0px 1px 0px;
   }
   .nav-menu {
     margin-top: 40px;
@@ -1218,8 +1218,8 @@ blockquote {
   .responsive {
     float: right;
     padding-top: 15px;
-    padding-right: 30px;
-    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     display: block;
   }
   /* About */

@@ -38,20 +38,6 @@ h2 {
   font-weight: 600;
 }
 
-.prelude {
-  color: #0834e2;
-  font-weight: 300;
-  font-size: 35px;
-  font-family: "Poppins", sans-serif;
-  padding-top: 80px;
-  padding-left: 20px;
-  padding-right: 30px;
-  margin-bottom: 10px;
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-
 h4 {
   color: #292929;
   font-size: 14px;
@@ -156,6 +142,20 @@ p {
 .form-control:focus {
   box-shadow: none;
   outline: 0 none;
+}
+
+.prelude {
+  color: #0834e2;
+  font-weight: 300;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  position: relative;
 }
 
 .paddsection {

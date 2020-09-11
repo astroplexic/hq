@@ -366,7 +366,7 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid transparent;
+  border: 20px solid white;
 }
 
 #about .div-img-bg .about-img img {
@@ -542,7 +542,7 @@ nav ul li a {
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
-  right: 8px;
+  right: 10px;
 }
 
 #portfolio .portfolio-item:hover .portfolio-info {

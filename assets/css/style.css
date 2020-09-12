@@ -969,8 +969,6 @@ blockquote {
 }
 
 
-
-
  /**  ~~~~~~~WIDTHS~~~~~~~~~~~~~~~~~~~~~~
  
 Max-width
@@ -1151,27 +1149,8 @@ Width between
   .nav-menu {
     margin-top: 40px;
     display: none;
-    float: none;
-    width: 100%;
-  }
-  .nav-menu li {
-    float: left;
-    width: 100%;
-    text-align: left;
-    text-transform: uppercase;
-    border-top: none;
-    line-height: 44px;
-    margin-left: 0;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-  }
-  .responsive {
     float: right;
-    padding-top: 12px;
-    padding-right: 18px;
-    padding-bottom: 12px;
-    display: block;
+    width: 100%;
   }
 
   /* About */
@@ -1290,10 +1269,10 @@ Width between
   }
 }
 
-/** Max-width 767px
+/** Max-width 766px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   /* Navbar */
   nav {
     padding: 0px 0px 1px 0px;
@@ -1510,7 +1489,6 @@ Width between
     display: inline-block;
   }
 }
-
 
 /** Max-width 320px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

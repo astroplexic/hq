@@ -969,43 +969,61 @@ blockquote {
 }
 
 
-/** Width between 1200x to 0
+
+
+ /**  ~~~~~~~WIDTHS~~~~~~~~~~~~~~~~~~~~~~
+ 
+Max-width
+ 320px 
+ 480px
+ 320px
+ 600px
+ 767px
+ 1201px +
+
+Width between
+768px to 860px
+861px to 1000px
+1001px to 1200px
+
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-/** Width between 992px to 1199px
+
+
+ /** Width 1201px +
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-/** Width between 768px to 991px
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
-@media (min-width: 768px) and (max-width: 991px) {
+ @media min-width: 1201px) {
   /* Navbar */
   nav {
-    padding: 10px 15px;
+    padding: 0px 0px 1px 0px;
   }
   .nav-menu {
-    margin-top: 20px;
+    margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
-    text-transform: capitalize;
   }
   .nav-menu li {
-    float: right;
+    float: left;
     width: 100%;
-    text-align: right;
-    border-top: 0px solid #fff;
-    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: none;
+    line-height: 44px;
     margin-left: 0;
+    padding-left: 30px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   .responsive {
     float: right;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 12px;
+    padding-right: 18px;
+    padding-bottom: 12px;
     display: block;
   }
+
   /* About */
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
@@ -1047,13 +1065,13 @@ blockquote {
   }
 }
 
-/** Width between 767px to 0
+/** Width between 1001px to 1200px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-@media (max-width: 767px) {
+@media (min-width: 1001px) and (max-width: 1200px) {
   /* Navbar */
   nav {
-    padding: 0px 8px 12px 0px;
+    padding: 0px 0px 1px 0px;
   }
   .nav-menu {
     margin-top: 40px;
@@ -1065,17 +1083,247 @@ blockquote {
     float: left;
     width: 100%;
     text-align: left;
+    text-transform: uppercase;
     border-top: none;
-    line-height: 15px;
-    margin-left: -14%;
-    padding-top: 3px;
-    padding-bottom: 12px;
+    line-height: 44px;
+    margin-left: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
   .responsive {
     float: right;
-    padding-top: 15px;
+    padding-top: 12px;
+    padding-right: 18px;
+    padding-bottom: 12px;
     display: block;
   }
+
+  /* About */
+  .head-info .header-content .cmaster h1 {
+    font-size: 32px;
+  }
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+    display: inline-block;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 861px to 1000px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+@media (min-width: 861px) and (max-width: 1000px) {
+  /* Navbar */
+  nav {
+    padding: 0px 0px 1px 0px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: left;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: none;
+    line-height: 44px;
+    margin-left: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 12px;
+    padding-right: 18px;
+    padding-bottom: 12px;
+    display: block;
+  }
+
+  /* About */
+  .head-info .header-content .cmaster h1 {
+    font-size: 32px;
+  }
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+    display: inline-block;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+ /** Width between 768px to 860px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+@media (min-width: 768px) and (max-width: 860px) {
+  /* Navbar */
+  nav {
+    padding: 0px 0px 1px 0px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: left;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: none;
+    line-height: 44px;
+    margin-left: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 12px;
+    padding-right: 18px;
+    padding-bottom: 12px;
+    display: block;
+  }
+
+  /* About */
+  .head-info .header-content .cmaster h1 {
+    font-size: 32px;
+  }
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+    display: inline-block;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Max-width 767px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+@media (max-width: 767px) {
+  /* Navbar */
+  nav {
+    padding: 0px 0px 1px 0px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: left;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: none;
+    line-height: 44px;
+    margin-left: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 12px;
+    padding-right: 18px;
+    padding-bottom: 12px;
+    display: block;
+  }
+
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -1117,13 +1365,13 @@ blockquote {
   }
 }
 
-/** Width between 600px to 0
+/** Max-width 600px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 600px) {
   /* Navbar */
   nav {
-    padding: 0px 25px 1px 0px;
+    padding: 0px 0px 1px 0px;
   }
   .nav-menu {
     margin-top: 40px;
@@ -1135,17 +1383,19 @@ blockquote {
     float: left;
     width: 100%;
     text-align: left;
-    border-top: none;
     text-transform: uppercase;
+    border-top: none;
     line-height: 44px;
     margin-left: 0;
     padding-left: 30px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   .responsive {
     float: right;
-    padding-top: 28px;
+    padding-top: 12px;
+    padding-right: 18px;
+    padding-bottom: 12px;
     display: block;
   }
   /* About */
@@ -1188,8 +1438,7 @@ blockquote {
     display: inline-block;
   }
 }
-
-/** Width between 480px to 0
+/** Max-width 480px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 480px) {
@@ -1262,13 +1511,14 @@ blockquote {
   }
 }
 
-/** Width between 320px to 0
+
+/** Max-width 320px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 320px) {
   /* Navbar */
   nav {
-    padding: 0px 25px 1px 0px;
+    padding: 0px 0px 1px 0px;
   }
   .nav-menu {
     margin-top: 40px;
@@ -1280,6 +1530,7 @@ blockquote {
     float: left;
     width: 100%;
     text-align: left;
+    text-transform: uppercase;
     border-top: none;
     line-height: 44px;
     margin-left: 0;
@@ -1289,8 +1540,9 @@ blockquote {
   }
   .responsive {
     float: right;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 12px;
+    padding-right: 18px;
+    padding-bottom: 12px;
     display: block;
   }
   /* About */

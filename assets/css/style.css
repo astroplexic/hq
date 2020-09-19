@@ -158,9 +158,14 @@ p {
   position: relative;
 }
 
+.prelude {
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
 .paddsection {
-  padding-top: 50px;
-  padding-bottom: 90px;
+  padding-top: 90px;
+  padding-bottom: 130px;
 }
 
 .paddsections {

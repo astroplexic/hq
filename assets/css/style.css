@@ -144,25 +144,6 @@ p {
   outline: 0 none;
 }
 
-.prelude {
-  color: #0834e2;
-  font-weight: 300;
-  font-size: 35px;
-  font-family: "Poppins", sans-serif;
-  padding-top: 80px;
-  padding-left: 20px;
-  padding-right: 30px;
-  margin-bottom: 10px;
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-
-.prelude {
-  padding-top: 300px;
-  padding-bottom: 300px;
-}
-
 .paddsection {
   padding-top: 90px;
   padding-bottom: 130px;

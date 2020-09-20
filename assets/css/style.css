@@ -127,15 +127,15 @@ p {
   font-weight: 300;
   text-transform: uppercase;
   font-size: 35px;
-  letter-spacing: 1px;
+  letter-spacing:0;
 }
 
-.section-projects-title {
+.section-essays-title {
   padding-bottom: 30px;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 35px;
-  letter-spacing: 1px;
+  letter-spacing: 0;
 }
 
 .form-control {

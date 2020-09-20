@@ -123,11 +123,12 @@ p {
 }
 
 .section-projects-title {
+  font-family: "Share Tech", sans-serif;
   padding-bottom: 15px;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 35px;
-  letter-spacing:0;
+  letter-spacing: 0;
 }
 
 .section-essays-title {
@@ -159,13 +160,14 @@ p {
 }
 
 .prelude-title {
+  font-family: "Share Tech", sans-serif;
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 100;
   text-transform: none;
   color: #0834e2;
   line-height: 1.3em;
-padding-left: 40px;
-padding-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .paddsection {
@@ -179,8 +181,8 @@ padding-right: 40px;
 }
 
 .row-prelude {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .paddsection-about {

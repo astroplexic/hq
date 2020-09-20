@@ -127,7 +127,15 @@ p {
   font-weight: 300;
   text-transform: uppercase;
   font-size: 35px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.section-projects-title {
+  padding-bottom: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 35px;
+  letter-spacing: 1px;
 }
 
 .form-control {
@@ -151,11 +159,13 @@ p {
 }
 
 .prelude-title {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 300;
   text-transform: none;
   color: #0834e2;
   line-height: 1.3em;
+padding-left: 40px;
+padding-right: 40px;
 }
 
 .paddsection {
@@ -164,7 +174,7 @@ p {
 }
 
 .paddsection-prelude {
-  padding-top: 30%;
+  padding-top: 35%;
   padding-bottom: 20%;
 }
 

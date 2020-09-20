@@ -164,8 +164,13 @@ p {
 }
 
 .paddsection-prelude {
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 30%;
+  padding-bottom: 20%;
+}
+
+.row-prelude {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .paddsection-about {

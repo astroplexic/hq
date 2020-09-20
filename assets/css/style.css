@@ -144,6 +144,19 @@ p {
   outline: 0 none;
 }
 
+.prelude {
+  color: #0834e2;
+  font-weight: 400;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  width: 85%;
+  position: relative;
+}
+
 .paddsection {
   padding-top: 90px;
   padding-bottom: 130px;

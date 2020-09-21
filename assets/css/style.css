@@ -192,6 +192,11 @@ p {
   padding-bottom: 150px;
 }
 
+.paddsection-projects {
+  padding-top: 20px;
+  padding-bottom: 250px;
+}
+
 .paddsections {
   padding-top: 90px;
   padding-bottom: 90px !important;

@@ -293,21 +293,22 @@ nav ul li a {
 }
 
 .hero-content h1 {
-  font-size: 40px;
+  font-size: 43px;
   margin-bottom: 5px;
   font-weight: 900;
   text-transform: uppercase;
   color: #fff;
+  letter-spacing: 0px;
 }
 
 .hero-content p {
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 0.9px;
   margin-top: 0;
   margin-bottom: 3px;
   text-transform: none;
   color: #fff;
-  font-weight: 450;
+  font-weight: 460;
 }
 
 .hero-content .list-social li {
@@ -319,7 +320,6 @@ nav ul li a {
 }
 
 .hero-content .list-social li i {
-  color: #fff;
   font-size: 22px;
   padding-top: 5px;
   display: inline-block;
@@ -955,7 +955,7 @@ blockquote {
   line-height: 1.4em;
   letter-spacing: 1px;
   text-align: left;
-  font-family: none;
+  font-family: 'Raleway', Poppins, sanserif;
   font-size: 18px;
 }
 

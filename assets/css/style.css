@@ -11,7 +11,7 @@
 body {
   background: #ffffff;
   color: #000;
-  font-family: 'Poppins', Rubik, sans-serif;
+  font-family: "Poppins", Rubik, sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 19px;
@@ -126,7 +126,7 @@ p {
 }
 
 .section-essays-title {
-  font-family: 'Rubik', Poppins, sans-serif;
+  font-family: "Rubik", Poppins, sans-serif;
   padding-bottom: 60px;
   text-transform: uppercase;
   font-size: 47px;
@@ -159,7 +159,7 @@ p {
 }
 
 .prelude-title {
-  font-family: 'Poppins', Rubik, sans-serif;
+  font-family: "Poppins", Rubik, sans-serif;
   font-size: 50px;
   line-height: 1.12em;
   padding-left: 40px;
@@ -228,7 +228,7 @@ nav {
 .nav-menu {
   float: right;
   line-height: 32px;
-  margin-bottom:-3px;
+  margin-bottom: -3px;
   padding-top: 2px;
 }
 
@@ -295,6 +295,7 @@ nav ul li a {
 .hero-content h1 {
   font-size: 40px;
   margin-bottom: 5px;
+  font-weight: 900;
   text-transform: uppercase;
   color: #fff;
 }
@@ -394,7 +395,7 @@ nav ul li a {
   width: 100%;
   height: auto;
   background: #ffffff;
-    padding-bottom: 50px;
+  padding-bottom: 50px;
   padding-top: 140px;
 }
 
@@ -945,12 +946,17 @@ nav ul li a {
 }
 
 blockquote {
-  padding: 40px;
+  padding: 33px;
   background-color: #f2f2f2;
   margin: 30px 0;
   border: none;
   border-left: 5px solid #0834e2;
   max-width: 100%;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+  text-align: left;
+  font-family: none;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------

@@ -11,9 +11,9 @@
 body {
   background: #ffffff;
   color: #000;
-  font-family: 'Rubik', 'Poppins', sans-serif;
+  font-family: 'Poppins', Rubik, sans-serif;
   font-size: 15px;
-  font-weight: 350;
+  font-weight: 300;
   line-height: 19px;
   letter-spacing: 0.9px;
   overflow-x: hidden;
@@ -161,7 +161,7 @@ p {
 .prelude-title {
   font-family: 'Poppins', Rubik, sans-serif;
   font-size: 50px;
-  line-height: 1.0em;
+  line-height: 1.12em;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -404,9 +404,7 @@ nav ul li a {
 #about .div-img-bg .about-img img {
   width: 100%;
   box-shadow: 15px 20px 21px -5px rgba(0, 0, 0, 0.1);
-  margin-top: 20%;
-  padding-top: 30px;
-  margin-left: 10px;
+  padding-top: 20px;
   height: 550px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -420,7 +418,7 @@ nav ul li a {
 }
 
 #about .about-descr .separator {
-  max-width: 80%;
+  max-width: 100%;
   margin-bottom: 0;
   text-align: left;
 }
@@ -949,7 +947,7 @@ blockquote {
   background-color: #f2f2f2;
   margin: 30px 0;
   border: none;
-  border-left: 4px solid #0834e2;
+  border-left: 5px solid #0834e2;
   max-width: 100%;
 }
 

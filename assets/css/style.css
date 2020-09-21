@@ -11,7 +11,7 @@
 body {
   background: #ffffff;
   color: #000;
-  font-family: 'Montserrat', Poppins, sans-serif;
+  font-family: 'Raleway', 'Poppins', sans-serif;
   font-size: 15px;
   font-weight: 350;
   line-height: 19px;
@@ -52,13 +52,13 @@ a {
 
 a:hover {
   font-weight: 500;
-  color: #001f99;
+  color: #0020a1;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #001f99;
+  color: #0020a1;
   font-weight: 500;
   text-decoration: none;
 }
@@ -123,7 +123,7 @@ p {
 }
 
 .section-projects-title {
-  font-family: "Teko", sans-serif;
+  font-family: "Rubik", sans-serif;
   padding-bottom: 18px;
   text-transform: uppercase;
   font-size: 45px;
@@ -132,7 +132,7 @@ p {
 }
 
 .section-essays-title {
-  font-family: 'Teko', sans-serif;
+  font-family: 'Rubik', sans-serif;
   padding-bottom: 30px;
   font-weight: 300;
   text-transform: uppercase;
@@ -167,7 +167,7 @@ p {
 }
 
 .prelude-title {
-  font-family: 'Teko', 'Source Sans Pro', sans-serif;
+  font-family: 'Rubik', Poppins, sans-serif;
   font-size: 50px;
   font-weight: 1000;
   text-transform: none;

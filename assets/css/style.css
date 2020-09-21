@@ -299,6 +299,7 @@ nav ul li a {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: -1px;
+  font-family: 'Poppins', Rubik, sans-serif;
 }
 
 .hero-content p {
@@ -959,7 +960,7 @@ blockquote {
   line-height: 1.4em;
   letter-spacing: 1px;
   text-align: left;
-  font-family: 'Raleway', Poppins, sanserif;
+  font-family: 'Raleway', Poppins, san-serif;
   font-size: 18px;
 }
 

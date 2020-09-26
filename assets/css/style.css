@@ -240,7 +240,7 @@ nav {
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family: 'Rubik', Poppins, sans-serif;
+  font-family: "Rubik", Poppins, sans-serif;
   font-size: 14px;
   margin-left: 5px;
 }
@@ -252,7 +252,7 @@ nav ul li a {
   font-size: 18px;
   font-weight: 400;
   color: #222;
-  font-family: 'Rubik', Poppins, sans-serif;
+  font-family: "Rubik", Poppins, sans-serif;
   line-height: 15px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -305,7 +305,7 @@ nav ul li a {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0;
-  font-family:  'Helvetica', Rubik, sans-serif;
+  font-family: "Helvetica", Rubik, sans-serif;
 }
 
 .hero-content p {
@@ -511,7 +511,7 @@ nav ul li a {
   list-style: none;
   text-align: center;
   border-radius: 50px;
-padding: 10px 10px 20px 15px;
+  padding: 10px 10px 20px 15px;
   display: flex;
 }
 
@@ -532,7 +532,7 @@ padding: 10px 10px 20px 15px;
 #portfolio #portfolio-flters li.filter-active {
   color: #0834e2;
   font-weight: 900;
-    text-decoration-line: overline;
+  text-decoration-line: overline;
   text-decoration-thickness: 4px;
   text-decoration-color: #222;
 }
